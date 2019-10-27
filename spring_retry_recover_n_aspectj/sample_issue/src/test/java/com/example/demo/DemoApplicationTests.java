@@ -12,11 +12,11 @@ class DemoApplicationTests {
 	@SpyBean
 	private RetryableService rService;
 	
-	
+	@Test
 	void contextLoads() {
 	}
 	
-	@Test
+	//@Test
 	public void testRetry() {
 		rService.methodToRetry(0);
 		
